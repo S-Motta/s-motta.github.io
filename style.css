@@ -1,3 +1,63 @@
+html {
+  overflow-y: hidden;
+}
+
+input {
+  border-radius: 10px;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  background-color: black;
+  border: 15px;
+  border-color: black;
+}
+
+.div-wrapper img {
+  position: fixed;
+  object-fit: cover;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+body {
+  background-color: black;
+  min-width: 800px;
+  width: auto !important;
+  width: 100%;
+}
+
+#buttonsize {
+  display: inline-block;
+  border: 20px;
+  border-radius: 5px;
+}
+
+#squash {
+  padding: 7px;
+  padding-left: 22px;
+  float: left;
+}
+
+.center {
+  padding: 5px;
+  float: right;
+}
+
+.centerb {
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .button {
   border: none;
   color: white;
@@ -10,13 +70,37 @@
   cursor: pointer;
 }
 
-.button1 {background-color: #008CBA;}
 
 h1 {
   font-family: arial;
-  text-align:center;
+  text-align: left;
+  color: white;
+  background-color: black;
+  margin: 0px;
+  padding-left: 0px;
+  padding-top: 15px;
 }
-p {
+
+#headingtitle {
   font-family: arial;
-  text-align:center;
+  text-align: left;
+  margin: 0px;
+  padding: 7px 15px;
+  padding-left: 0px;
+  color: white;
+  background-color: black;
+  border: 20px;
+  border-radius: 10px;
+}
+
+p {
+  padding-top: 85px;
+  font-family: arial;
+  text-align: left;
+  margin: 0px;
+  padding-left: 22px;
+  color: white;
+  background-color: black;
+  border: 20px;
+  border-radius: 10px;
 }  
