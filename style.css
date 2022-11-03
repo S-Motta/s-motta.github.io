@@ -31,6 +31,7 @@ body {
   min-width: 800px;
   width: auto !important;
   width: 100%;
+  margin-top: 0px;
 }
 
 #buttonsize {
